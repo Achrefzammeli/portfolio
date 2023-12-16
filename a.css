@@ -1,0 +1,280 @@
+*{
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+    background: #ededed;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: url("cv-cover.jpg") #0b0b0b;
+    box-shadow: 0px 0px 15px #333;
+}
+header{
+    border-bottom: 2px solid #fff;
+    height: 120px;
+}
+header h1{
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer{
+    border-top: 2px solid #fff;
+}
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+}
+
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+
+section h2{
+    margin: 20px 0;
+    width: 90%;
+}
+section > div{
+    width: 90%;
+}
+
+
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+.prez{
+    border-bottom: 2px dashed #ccc;
+}
+.telecharger{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #fff;
+    background-color: rgb(203, 169, 44);
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.test {
+   line-height: 50%;
+   
+        display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-flex p:first-child{
+    flex: 0 0 40%;
+}
+.contact-flex p:last-child{
+    flex: 0 0 60%;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp-info{
+    display: flex;
+    flex-flow: column wrap;
+}
+.exp-logo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+.exp-info{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.exp img{
+    width: 100%;
+}
+.exp h3{
+    font-size:  1.2em;
+}
+.exp h4{
+    font-size:  1em;
+    font-weight: normal;
+}
+/* Add your global styles here */
+
+body {
+    font-family: Arial, sans-serif; /* Adjust the font family as needed */
+    background-color: #f8f8f8; /* Set the background color */
+    color: #333; /* Set the default text color */
+  }
+  
+  .container {
+    max-width: 1200px; /* Set the maximum width of the container */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .contact {
+    padding: 80px 0; /* Adjust the top and bottom padding of the contact section */
+  }
+  
+  .contact-form .form-control {
+    background: transparent;
+    border: 1px solid #000; /* Black border */
+    border-bottom: 1px solid rgba(11, 5, 11, 0.35);
+    box-shadow: 0 1px 0 rgb(5, 4, 4); /* Slight box shadow */
+    border-radius: 0;
+    outline: none;
+    color: #000; /* Black text color */
+    font-weight: 400; /* Adjust the font weight */
+    padding-left: 0;
+    cursor: text;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Make the input and textarea width 100% */
+    margin-bottom: 10px; /* Add some bottom margin to separate the elements */
+  }
+  
+  .contact-form textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px; /* Adjust the bottom margin of the form groups */
+  }
+  
+  .webform-label {
+    cursor: text;
+    font-size: 14px; /* Adjust the font size */
+    font-weight: 400; /* Adjust the font weight */
+    margin-bottom: 5px;
+    color: #0b070a;
+  }
+  
+  .contact-form .form-control:placeholder-shown + .webform-label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(0, 2.125rem) scale(1.5);
+  }
+  
+  .contact-form ::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+    color: #000; /* Black placeholder text color */
+  }
+  
+  .contact-form ::-moz-placeholder {
+    opacity: 0;
+    transition: inherit;
+    color: #000; /* Black placeholder text color */
+  }
+  
+  .contact-form .form-control:focus::-webkit-input-placeholder {
+    opacity: 1;
+  }
+  
+  .contact-form .form-control:focus::-moz-placeholder {
+    opacity: 1;
+  }
+  
+  .contact-form .form-control:not(:placeholder-shown) + .webform-label,
+  .contact-form .form-control:focus + .webform-label {
+    transform: translate(0, 0) scale(1);
+    cursor: pointer;
+    color: #777; /* Adjust the label color */
+  }
+  
+  .contact-form #submit-button {
+    background: #dfd026; /* Adjust the button background color */
+    border: 1px solid #ffffff; /* Adjust the button border color */
+    border-radius: 3px; /* Adjust the button border radius */
+    color: #fff; /* Adjust the button text color */
+    cursor: pointer;
+    font-size: 16px; /* Adjust the button font size */
+    line-height: 0;
+    padding: 15px 20px; /* Adjust the button padding */
+    white-space: nowrap;
+    max-width: 190px;
+    transition: background-color 0.3s ease; /* Add a smooth transition to the background color */
+  }
+  
+  .contact-form #submit-button:hover {
+    background-color: #090908; /* Adjust the button background color on hover */
+  }
+  
+  /* Add any additional styles or overrides as needed */
+  
+  
+footer {
+	margin-top: 0%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	padding: 20px;
+	background-color: rgb(1, 1, 1);
+	color: white;
+}
+footer .colonne p {
+	font-size: 12px;
+	color: #464445;
+	cursor: pointer;
+}
+footer .colonne p:hover {
+	color: #d4d119;
+}

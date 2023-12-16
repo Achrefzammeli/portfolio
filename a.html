@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>portfolio de achref </title>
+        <meta charset="utf-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="a.css">
+    </head>
+    <body>
+        <header>
+            <h1>Portfolio de Achref Zammeli</h1>
+        </header>
+        
+        <section>
+            <div class="photo">
+                <img src="pictures/achref.jpg" alt="Ma photo de profil">
+            </div>
+            <div class="prez">
+                <h2>Qui suis-je ?</h2>
+                <p>Je me suis spécialise dans le domaine mecanique  et informatique .
+                    Je suis motivé à mettre en pratique les connaissances acquises lors de ma formation
+                     et toujours prêt à apprendre et à développer mes compétences.</p>
+                <a class="telecharger">Télécharger mon CV</a>
+            </div>
+            <div class="contact">
+                <h2>Informations de contact</h2>
+                <div class="contact-flex">
+                    <p>Nom : </p>
+                    <p>Zammeli Achref</p>
+                </div>
+                <div class="contact-flex">
+                    <p>Adresse : </p>
+                    <p>Omrane Supérieur, tunis, Ariana: 2081/p>
+                </div>
+                <div class="contact-flex">
+                    <p>Téléphone :</p>
+                    <p>94289214</p>
+                </div>
+                <div class="contact-flex">
+                    <p>Mail : </p>
+                    <p><a href="tetbadelblienladresse">achref.zammeli@esprit.tn</a></p>
+                </div>
+                <div class="contact-flex">
+                    <p>Linkedln:</p>
+                    <p>https://www.linkedin.com/in/zammeli-achref-49109a223</p>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/achref.zammeli.5"><img src="fb.png" alt="Logo Fb"></a>
+                    <a href="#"><img src="tw.png" alt="Logo Tw"></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?fbclid=IwAR0is8i2_Rv_OtL-tT84hbN4-QLs5qRs-q4oKpL5kmQnVrc25EtGs5USHUA"><img src="lk.png" alt="Logo Lk"></a>
+                    <a href="https://www.youtube.com/watch?v=FdfdSXq0H7g"><img src="yt.png" alt="Logo Yt"></a>
+                </div>
+                <span class="faq-info-text">Accédez à mon mail : <strong>achref.zammeli@esprit.tn</strong></span>
+            </div>
+            <section class="contact section-padding pt-0" id="contact">
+                <div class="container">
+                  <div class="row">
+            
+                    <div class="col-lg-6 col-md-6 col-12">
+                      <form action="#" method="get" class="contact-form webform" role="form" onsubmit="return validateForm()">
+                          
+                          <div class="form-group d-flex flex-column-reverse">
+                              <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Nom Et Prénom">
+            
+                              <label for="cf-name" class="webform-label">Nom Complet</label>
+                          </div>
+            
+                          <div class="form-group d-flex flex-column-reverse">
+                              <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Adresse mail">
+            
+                              <label for="cf-email" class="webform-label">Adresse</label>
+                          </div>
+            
+                          <div class="form-group d-flex flex-column-reverse">
+                              <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Votre Message"></textarea>
+            
+                              <label for="cf-message" class="webform-label">Message</label>
+                          </div>
+            
+                          <button type="submit" class="form-control" id="submit-button" name="submit">Envoyer</button>
+                      </form>
+                    </div>
+            
+                    <div>
+                      <p>contactez moi : <a href="https://mail.google.com/mail/mu/mp/131/#tl/priority/%5Eio_im%2C%5Eu" title="mon compte" target="_blank">mail</a></p>
+                    </div>
+            
+                  </div>
+                </div>
+              </section>
+            
+              <script>
+                function validateForm() {
+                  var email = document.getElementById("cf-email").value;
+                  var emailRegex = /\S+@\S+\.\S+/;
+            
+                  if (!emailRegex.test(email)) {
+                    alert("Veuillez entrer une adresse e-mail valide.");
+                    return false; // Stop form submission
+                  }
+            
+                  // Continue with form submission if the email is valid
+                  return true;
+                }
+              </script>
+              </section>
+            </section>
+            <footer>
+                <div class="colonne">
+                    <h3>Mes services</h3>
+                    <p>programmation</p>
+                    <p>conception mecanique</p>
+                
+                </div>
+                <div class="colonne">
+                    <h3>Mes adresses</h3>
+                    <p>achrefzammeli9@gmail.com</p>
+                    <p>achref.zammeli@esprit.tn</p>
+                    
+                </div>
+            </footer>
+    </body>
+</section>
+</html>
